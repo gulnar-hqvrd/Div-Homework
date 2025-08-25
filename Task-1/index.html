@@ -7,31 +7,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <header>
+    <header>
+      <div class="wrapper">
         <div class="flex">
-          <div class="headertext">
-            <p>Beginner HTML</p>
-          </div>
+          <a href="#" class="headertext">Beginner HTML</a>
           <nav class="navbar">
             <ul class="flex navbar-text">
-              <li>Home</li>
-              <li>Tutorials</li>
-              <li>Example</li>
-              <li>Contact</li>
-              <li>Reach out</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Tutorials</a></li>
+              <li><a href="#">Example</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Reach out</a></li>
             </ul>
           </nav>
         </div>
-      </header>
-      <hr />
-      <div class="feedbacktext">
-        <p>We'd love your feedback!</p>
+        <hr />
       </div>
-      <hr />
+    </header>
+
+    <br /><br />
+    <main>
+      <div class="wrapper">
+        <h1 class="feedbacktext">We'd love your feedback!</h1>
+        <hr />
+      </div>
+
       <br /><br />
-      <main class="flex">
-        <section class="form">
+      <div class="wrapper flex">
           <form action="#">
             <label for=""> Full Name</label>
             <br /><br />
@@ -94,13 +96,14 @@
 
             <button>Submit</button>
           </form>
-        </section>
         <aside>
-          <img src="/fox.jpg" alt="" />
+          <img src="/Task-1/fox.jpg" alt="" />
         </aside>
-      </main>
+      </div>
+    </main>
 
-      <footer>
+    <footer>
+      <div class="wrapper">
         <h2>HTML Learning</h2>
         <br />
         <hr width="40%" />
@@ -127,7 +130,7 @@
             <button>Subscribe</button>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
