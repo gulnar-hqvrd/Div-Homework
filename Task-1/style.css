@@ -67,7 +67,7 @@ form > input {
 
 form {
   /* border: 1px solid black; */
-  width: 100%;
+  width: 50%;
   background-color: #d3d3d3;
   padding: 20px 0 20px 15px;
 }
@@ -119,11 +119,12 @@ footer {
   width: 40%;
   padding: 10px;
   margin-bottom: 40px;
+  font-weight: bold;
 }
 
-footer > div > div > ul > li {
+.footer ul > li > a{
   margin-bottom: 5px;
-  font-weight: bold;
+  color: black;
 }
 
 .locations {
@@ -144,8 +145,8 @@ footer > div > div > ul > li {
   border: 1px solid transparent;
   border-radius: 10px;
   width: 50%;
+   margin: 15px 0;
 }
-.locations > p {
+.locations > label {
   color: white;
-  margin: 10px 0;
 }
