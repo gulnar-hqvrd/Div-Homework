@@ -1,0 +1,138 @@
+body {
+  background-color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.first{
+    /* border: 1px solid purple; */
+box-shadow:0px 0px 10px 2px  #debb73;
+    width:730px ;
+    margin: 0 auto;
+}
+.container {
+  width: 730px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #4d0017;
+  padding: 20px;
+}
+
+.header a {
+  color: #debb73;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.header > p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #eeddb9;
+  margin: 0 30px;
+}
+
+nav li a:hover {
+  background-color: #4d0017;
+  color: #debb73;
+}
+
+nav li a {
+  float: left;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ead5a8;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  padding-top: 12px;
+  transition: 0.3s;
+}
+
+nav {
+  background-color: #9a002f;
+  height: 40px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.textarticle {
+  background-color: #debb73;
+  height: 540px;
+  padding: 20px 20px 0 20px;
+}
+
+.textarticleleft > p {
+  margin: 10px 0 20px 0;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+  width: 555px;
+}
+
+.textarticleleft {
+  float: left;
+}
+aside {
+  float: right;
+  padding: 45px 20px 0 0;
+}
+
+h2 {
+  color: #6a0020;
+  font-weight: bold;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+aside > p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #2b000d;
+}
+aside > ul > li > a {
+  font-size: 11px;
+  font-weight: bold;
+  color: #101214;
+  line-height: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s;
+}
+
+
+aside > ul > li > a:hover{
+color: #667765;
+}
+.textarticlefoot {
+  float: left;
+  margin-top: 10px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+}
+
+.footer{
+      background-color: #debb73;
+          width: 100%;
+    text-align: center;
+}
+
+.footer > a{
+    font-size: 10px;
+    color: #AC8228;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
